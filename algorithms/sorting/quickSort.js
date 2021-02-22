@@ -1,4 +1,4 @@
-function quickSort(array, left, right) {
+export default function quickSort(array, left, right) {
   if (left < right) {
     const pivot = getPivot(array, left, right);
 
